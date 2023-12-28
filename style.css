@@ -1,0 +1,41 @@
+
+nav{
+    background-color: rgb(122, 120, 120);
+    display: flex;
+
+    padding: 2px 6px;
+    justify-content: space-between;
+}
+
+ul{
+   display: flex;
+}
+
+ul li{
+    list-style: none;
+    width: 100px;
+    font-size: small;
+}
+
+    ul > li:hover{
+      color: aliceblue;
+    }
+
+table{
+    border: 2px solid black
+}
+jeetu{
+        font-size: larger; 
+}
+
+.btn{
+    background-color: black;
+    color: azure;
+    border-radius: 60px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.box{
+    text-align: justify;
+}

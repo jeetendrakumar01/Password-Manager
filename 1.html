@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+      *{
+        font-family: 'Poppins', sans-serif;
+      }
+    </style>
+    
+</head>
+<body>
+   <nav>
+    <div class="jeetu"><b><h1>Pass X</h1></b></div>
+
+    <ul>
+        <li><h2>Home</h2></li>
+        <li><h2>About</h2></li>
+        <li><h2>Contact</h2></li>
+        </nav>
+    </ul>
+   <div class="box">
+        <h1>Password Manager</h1>
+        <p>"Welcome, I am  Jeetendra. guardian of your digital keys!
+            <br>
+             Unlock the doors to your secure vault and navigate the realms of 
+            cyberspace with confidence. Your passwords are fortified, and your online kingdom 
+            is safeguarded. Enter the realm of security, noble user!"</p>
+        <h2>Your Password</h2><table>
+            <tr>
+                <th>Website</th>
+                <th>Username</th>
+                <th>Password</th>
+                <th>Delete</th>
+            </tr>
+            <tr>
+                <td>Google.com</td>
+                <td>jeetu123</td>
+            </tr>
+            <tr>
+                <td>insta.com</td>
+                <td>dhananjay123</td>
+            </tr>
+
+            
+        </table>
+
+        <h2>Add a Password</h2>
+        <form action="/submit" method="post">
+            <!-- Text input for username -->
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br>
+            <br>
+            <!-- Password input -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <br>
+              <!-- Submit button -->
+            <input class="btn" type="submit" value="Submit">
+          </form>
+
+    </div>   
+    <script src="script.js"></script>
+
+</body>
+</html>
